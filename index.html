@@ -3,7 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PaperFetch Pro — Research Paper Search</title>
+<title>PaperFetch Pro — Free Research Paper Search Engine</title>
+<meta name="description" content="Search 250M+ research papers from CrossRef, OpenAlex, PubMed, arXiv, Semantic Scholar, DOAJ, PLOS, Europe PMC and CORE. No API key required. Export to BibTeX, CSV, RIS.">
+<meta name="keywords" content="research paper search, academic search engine, arxiv, pubmed, crossref, openalex, semantic scholar, free research tool, bibtex export">
+<meta name="author" content="PaperFetch">
+<meta name="robots" content="index, follow">
+<!-- Open Graph -->
+<meta property="og:title" content="PaperFetch Pro — Free Research Paper Search">
+<meta property="og:description" content="Search 250M+ papers from 9 databases. No API key. Export BibTeX, CSV, RIS. Works in any browser.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://paperfetch.github.io/">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PaperFetch Pro">
+<meta name="twitter:description" content="Free research paper search — 9 databases, no signup needed.">
+<!-- Favicon (inline SVG as data URI) -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%23c8410a'/><text x='16' y='22' font-size='18' text-anchor='middle' fill='white' font-family='serif'>P</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -329,6 +344,14 @@ hr.divider { border: none; border-top: 1px solid var(--border); margin: 4px 0 22
 </div>
 
 <div class="toast" id="toast"></div>
+
+<footer style="margin-top:60px;padding:28px 0 32px;border-top:1px solid var(--border);text-align:center;">
+  <div class="container">
+    <p style="font-family:var(--mono);font-size:11px;color:var(--ink3);letter-spacing:0.08em;margin-bottom:8px;">PAPERFETCH PRO &nbsp;·&nbsp; FREE &amp; OPEN SOURCE &nbsp;·&nbsp; NO API KEY REQUIRED</p>
+    <p style="font-family:var(--mono);font-size:10px;color:var(--border2);margin-bottom:14px;">Data from CrossRef · OpenAlex · PubMed · Europe PMC · DOAJ · PLOS · Semantic Scholar · arXiv · CORE</p>
+    <a href="https://github.com" target="_blank" rel="noopener" style="font-family:var(--mono);font-size:10px;color:var(--ink3);border:1.5px solid var(--border2);padding:6px 16px;border-radius:30px;text-decoration:none;letter-spacing:0.08em;text-transform:uppercase;">★ View on GitHub</a>
+  </div>
+</footer>
 
 <script>
 let allPapers = [];
